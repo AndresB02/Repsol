@@ -1,0 +1,209 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+}
+
+/********* inicia header ********/
+.header {
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.logoGlobal {
+	display: flex;
+	align-items: center;
+	padding-left: 300px;
+}
+
+.logo {
+	width: 150px;
+	margin-right: 10px;
+}
+
+.global p{
+	border-left: 1px solid grey;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	color: grey;
+}
+
+.botonesUno {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	font-style: normal;
+	font-size: 22px;
+	padding-left: 700px;
+	color: #464646;
+
+}
+.botonesUno li, a {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.nube{
+	width: 4%;
+	margin: 0;
+	padding: 0;
+}
+
+.icono {
+	width: 3%;
+	margin: 0;
+	padding: 0;
+}
+
+.lupa {
+	width: 3.5%;
+}
+
+/********** INICIA Menu INFERIOR ******/
+.menuDos {
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	color: #464646;
+}
+
+.menuDos:hover {
+	background: none;
+	color: steelblue
+}
+
+.botonesDos {
+	display: flex;
+	gap: 350px;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	font-style: normal;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 22px;
+}
+/******************** INICIA MAIN **************/
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(10, 10, 10, 10);
+    border-radius: 20px;
+    text-align: center;
+    width: 380px;
+    height: 780px;
+}
+
+.inputGrupo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h2{
+    color: black;
+    font-size: 30px;
+	padding-bottom: 20px;
+}
+
+.bienvenida {
+	padding-bottom: 50px;
+}
+
+label {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    padding: 17px 15px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color:white;
+    color: black;
+    outline: none;
+    resize: none;
+    border: 1px solid;
+}
+
+input::placeholder, textarea::placeholder {
+    color: grey
+}
+
+.formTxt {
+    margin-bottom: 1 0px ;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.formTxt a {
+    color: #76b2be;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.btn {
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    background-color: orangered;
+    box-shadow: 0 0 20px orange;
+    font-size: 24px;
+    margin-top: 20px;
+    transition: 1s all; /* sirve para demorar la transicion de los cambios de un elemento*/
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: orange;
+    transform: scale(1.1);
+}
+/*************  INICIA FOOTER **********************/
+
+.logoDos {
+	width: 5%;
+}
+
+.redesSociales {
+	padding: 50px 0px 50px  0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1200px;
+}
+
+.made {
+	display: flex;
+	color: #464646;
+	text-align: center;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+	border-top:  1px solid grey;
+	padding: 50px;
+}
+
+.sena {
+	width: 2%;
+}
